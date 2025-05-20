@@ -5,7 +5,7 @@ from kivy.uix.label import Label
 from kivy.clock import Clock
 from plyer import notification
 from kivy.graphics import Color, Rectangle
-
+ 
 class CountdownApp(App):
     def build(self):
         self.time_left = 0
